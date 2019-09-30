@@ -14,19 +14,17 @@ body{
 #header-main-text{
 	font-size: 3em;	
 }
-header{
-	height: 100%;
-}
 
-#head{
-	height: 100%;
+#intro, .left-head-text, .foto-head-text{
+	height: 100vh;
 
 }
-#left-head-text{
-	display: flex;
-    align-items: center;
-    justify-content: center;
-	position: absolute;
+
+.MainText{
+margin-top: calc(50vh - 98px);
+}	
+
+.left-head-text{
 	float: left;
 	width: 60%;
 	height: 100%;
@@ -40,7 +38,7 @@ header{
 }
 .foto-head-text{
 	float: right;
-	position: absolute;
+
 	left: 60%;
     right: 0;
     bottom: 0;
@@ -55,30 +53,32 @@ header{
 	top:50px;
 }
 
-nav{
-	position: relative;	
-	z-index: 42;
-}
 
 .nav-menu{
 	list-style-type: none;
+	display: table;
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	height: 100px;
 	font-weight: bold;
+}
+.nav-menu li{
+	display: table-cell;
+	position: relative;
 }
 .nav-menu a{
 	background-color:#ffe7d2;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
 	text-decoration: none;
-	display: inline-block;
+	display: block;
 	color: #58402c;
-	padding: 50px 20px;
+	line-height: 100px;
 	border-bottom: 5px solid #f5c64e;
 }
 .nav-menu a:hover{
 	color: #cca07c;
-}
-
-.nav-menu li{
-	float: left;
 }
