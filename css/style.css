@@ -1,0 +1,84 @@
+
+body{
+	background: #f4f4f4;
+	margin: 0;
+	font-family: 'Be Vietnam',Arial,sans-serif;
+	font-family: 'Comfortaa', cursive;
+	height: 100%;	color: #58402c;
+}
+
+#header-other-text{
+	font-size: 1.5em;
+}
+
+#header-main-text{
+	font-size: 3em;	
+}
+header{
+	height: 100%;
+}
+
+#head{
+	height: 100%;
+
+}
+#left-head-text{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	position: absolute;
+	float: left;
+	width: 60%;
+	height: 100%;
+	left: 0;
+    right: 0;
+    bottom: 0;
+    top:0;
+	font-weight: bold;
+	text-align: center;
+
+}
+.foto-head-text{
+	float: right;
+	position: absolute;
+	left: 60%;
+    right: 0;
+    bottom: 0;
+    top:0;
+	width: 40%;
+	margin: 0 auto;
+	background: lightgreen;
+}
+
+#myphoto{
+	width: 60%;
+	top:50px;
+}
+
+nav{
+	position: relative;	
+	z-index: 42;
+}
+
+.nav-menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-weight: bold;
+}
+.nav-menu a{
+	background-color:#ffe7d2;
+	text-decoration: none;
+	display: inline-block;
+	color: #58402c;
+	padding: 50px 20px;
+	border-bottom: 5px solid #f5c64e;
+}
+.nav-menu a:hover{
+	color: #cca07c;
+}
+
+.nav-menu li{
+	float: left;
+}
