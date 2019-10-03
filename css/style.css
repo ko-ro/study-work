@@ -4,6 +4,8 @@ body{
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	height: 100%;	color: #787878;
+	display: flex;
+	flex-direction: column;
 }
 
 header{
@@ -85,48 +87,114 @@ header{
 .BottonContactUs{
 	font-family: 'Montserrat', sans-serif;
 	background-color: #10c9c3;
-	border: 0;
+	border: 0	;
 	display: inline-block;
 	padding: 15px 32px;
 	margin-top: 2%;
 
 }
-
 .AboutMe{
-	position: absolute;
-	top: 100vh;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 40px;
 	width: 100%;
-	height: 40vh;
+	justify-content: center;
+	align-items: center;
+
 }
-.AboutMeText span{
+.AboutMe span{
 	font-size: 3em;
 	text-transform: uppercase;
 	font-weight: bold;
 	display: block;
 	text-align: center;
-	margin: 3%;
+	margin: 2%;
 	color: #191919;
 }
 
-.AboutMeText p{
+.AboutMe p{
+	width: 50%;
 	text-align: center;
-	margin: 3%;
+	margin: 2%;
 	color: #787878;
 }
 
 .ImgSignatureCenter{
 	display:block;
-	margin:0 auto;
-	margin-top: 3%;
-	margin-bottom: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
-.AboutMeText{
-	width: 60%;
-	margin: 0 auto;
-}/*
+
 .ProffesionalSkills{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	width: 100%;
 	height: 80vh;
+
+	
+}
+
+.ProffesionalSkillsInfo,.ProffesionalSkillsPhoto{
+	width: 50%;
+	height: 80vh;
+}
+
+.ProffesionalSkillsInfo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	color: #171717;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #f8f9f9;
+
+
+}
+.ProffesionalSkillsText{
+	font-size: 1.875em;
+	text-align: center;
+	text-transform: none;
+}
+.ProffesionalSkillsDesign, .ProffesionalSkillsWebDevelopment, .ProffesionalSkillsMarketing{
+
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 10%;
+}
+
+.ProffesionalSkillsDesignDiv{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.ProffesionalSkillsDesignLeftDiv, .ProffesionalSkillsWebDevelopmentLeftDiv, .ProffesionalSkillsMarketingLeftDiv{
 	background-color: #10c9c3;
-}*/
+	height: 5px;
+}
+
+.ProffesionalSkillsDesignRightDiv, .ProffesionalSkillsWebDevelopmentRightDiv, .ProffesionalSkillsMarketingRightDiv{
+	background-color: #d8d8d8;
+	height: 5px;
+}
+
+.ProffesionalSkillsDesignLeftDiv{
+	width: 50%;
+}
+.ProffesionalSkillsWebDevelopmentLeftDiv{
+	width: 70%;
+}
+.ProffesionalSkillsMarketingLeftDiv{
+	width: 90%;
+}
+.ProffesionalSkillsDesignRightDiv{
+	width: 50%;
+}
+.ProffesionalSkillsWebDevelopmentRightDiv{
+	width: 30%;
+}
+.ProffesionalSkillsMarketingRightDiv{
+	width: 10%;
+}
