@@ -3,7 +3,7 @@ body{
 	background: #f4f4f4;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
-	height: 100%;	color: #58402c;
+	height: 100%;	color: #787878;
 }
 
 #header-other-text{
@@ -17,7 +17,7 @@ body{
 header{
 	height: 100vh;
 	background-color: #e9e9e9;
-
+	overflow: hidden;
 }
 
 #myphoto{
@@ -27,9 +27,11 @@ header{
 .Logo{
 	width: 40%;
 	float: left;
-	height: 100px;
+	height: 70px;
 }
-
+.HeaderText{
+	font-size: 0.750em;
+}
 .HeaderNavMenu{
 	list-style-type: none;
 	display: table;
@@ -60,11 +62,91 @@ header{
 }
 .Main{
 	height: calc(100vh - 70px);
-	background-color: aqua;
 	position: relative;
-	top:70px;
-	
+	top: 70px;
 }
+
 .MainPhoto{
 	width: 40%;
+	position: absolute;
+	left: 0;
+	top:0;
+	height: calc(100vh - 70px);
+}
+.MainText{
+	width: 60%;
+	right: 0;
+	top:0;
+	position: absolute;
+	height: calc(100vh - 70px);
+	margin: 0 auto;
+
+}
+.MainText p{
+	font-size: 1.125em;
+	text-align: justify;
+	margin-right: 30%;
+}
+.MainText span{	
+	color: #1d1d1d;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: left;
+	display: inline-block;
+	margin-top: 10%;
+}
+.MainText a{
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;	
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.BottonContactUs:hover{
+	background-color: #35fff8;
+}
+
+.BottonContactUs{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #10c9c3;
+	border: 0;
+	display: inline-block;
+	padding: 15px 32px;
+	margin-top: 2%;
+
+}
+
+.AboutMe{
+	position: absolute;
+	top: 100vh;
+	width: 100%;
+	height: 40vh;
+}
+.AboutMeText span{
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	margin: 3%;
+	color: #191919;
+}
+
+.AboutMeText p{
+	text-align: center;
+	margin: 3%;
+	color: #787878;
+}
+
+.ImgSignatureCenter{
+	display:block;
+	margin:0 auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.AboutMeText{
+	width: 60%;
+	margin: 0 auto;
 }
