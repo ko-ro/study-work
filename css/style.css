@@ -2,8 +2,7 @@
 body{
 	background: #f4f4f4;
 	margin: 0;
-	font-family: 'Be Vietnam',Arial,sans-serif;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Montserrat', sans-serif;
 	height: 100%;	color: #58402c;
 }
 
@@ -15,70 +14,57 @@ body{
 	font-size: 3em;	
 }
 
-#intro, .left-head-text, .foto-head-text{
+header{
 	height: 100vh;
+	background-color: #e9e9e9;
 
-}
-
-.MainText{
-margin-top: calc(50vh - 98px);
-}	
-
-.left-head-text{
-	float: left;
-	width: 60%;
-	height: 100%;
-	left: 0;
-    right: 0;
-    bottom: 0;
-    top:0;
-	font-weight: bold;
-	text-align: center;
-
-}
-.foto-head-text{
-	float: right;
-
-	left: 60%;
-    right: 0;
-    bottom: 0;
-    top:0;
-	width: 40%;
-	margin: 0 auto;
-	background: lightgreen;
 }
 
 #myphoto{
 	width: 60%;
 	top:50px;
 }
+.Logo{
+	width: 40%;
+	float: left;
+	height: 100px;
+}
 
-
-.nav-menu{
+.HeaderNavMenu{
 	list-style-type: none;
 	display: table;
 	margin: 0;
 	padding: 0;
-	width: 100%;
-	height: 100px;
+	width: 60%;
+	float: right;
+	height: 70px;
+	text-transform: uppercase;
 	font-weight: bold;
 }
-.nav-menu li{
+.HeaderNavMenu li{
 	display: table-cell;
 	position: relative;
 }
-.nav-menu a{
-	background-color:#ffe7d2;
+.HeaderNavMenu a{
 	position: relative;
 	width: 100%;
 	height: 100%;
 	text-align: center;
 	text-decoration: none;
 	display: block;
-	color: #58402c;
-	line-height: 100px;
-	border-bottom: 5px solid #f5c64e;
+	color: #191919;
+	line-height: 70px;
 }
-.nav-menu a:hover{
-	color: #cca07c;
+.HeaderNavMenu a:hover{
+	color: #10c9c3;
+}
+.Main{
+	height: calc(100vh - 70px);
+	background-color: aqua;
+	position: relative;
+	top:70px;
+	
+}
+.MainPhoto{
+	width: 40%;
 }
