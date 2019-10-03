@@ -6,56 +6,31 @@ body{
 	height: 100%;	color: #787878;
 }
 
-#header-other-text{
-	font-size: 1.5em;
-}
-
-#header-main-text{
-	font-size: 3em;	
-}
-
 header{
 	height: 100vh;
 	background-color: #e9e9e9;
 	overflow: hidden;
 }
-
-#myphoto{
+.HeaderText{
+	font-size: 0.750em;	
+	float: right;
 	width: 60%;
-	top:50px;
-}
-.Logo{
-	width: 40%;
-	float: left;
 	height: 70px;
 }
-.HeaderText{
-	font-size: 0.750em;
-}
 .HeaderNavMenu{
-	list-style-type: none;
-	display: table;
-	margin: 0;
-	padding: 0;
-	width: 60%;
-	float: right;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
 	height: 70px;
 	text-transform: uppercase;
 	font-weight: bold;
-}
-.HeaderNavMenu li{
-	display: table-cell;
-	position: relative;
+	list-style-type: none;
+
 }
 .HeaderNavMenu a{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	text-align: center;
 	text-decoration: none;
-	display: block;
 	color: #191919;
-	line-height: 70px;
 }
 .HeaderNavMenu a:hover{
 	color: #10c9c3;
@@ -149,4 +124,9 @@ header{
 .AboutMeText{
 	width: 60%;
 	margin: 0 auto;
-}
+}/*
+.ProffesionalSkills{
+	width: 100%;
+	height: 80vh;
+	background-color: #10c9c3;
+}*/
