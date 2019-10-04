@@ -9,21 +9,21 @@
 </head>
 <body>
 	<header>
-		
+		<!--Header-->
 		<div class="HeaderText">
-			<nav >
+			<nav class="HeaderNav">
 				<ul class="HeaderNavMenu">
-					<li><a href="#"> Про мене </a></li>
-					<li><a href="#"> Професійні навички</a></li>
-					<li><a href="#"> Наукова Робота</a></li>
-					<li><a href="#"> Проекти</a></li>
+					<li><a href="#yakAboutMe"> Про мене </a></li>
+					<li><a href="#yakProffesionalSkillsPhoto"> Професійні навички</a></li>
+					<li><a href="#yakScientificWork"> Наукова Робота</a></li>
+					<li><a href="#yakProject"> Проекти</a></li>
 					<li><a href="#"> Сайт під ключ</a></li>
 				</ul>
+				
 			</nav>
 		</div>
-		<!-- Основна інформація з кнопкою -->
+		<!-- Main Header Фото + інформація -->
 		<section class="Main">
-			<div>
 				<div class="MainPhoto">
 					<img src="#" alt="">
 				</div>
@@ -35,11 +35,10 @@
 					<p>В мене є досвід на рахунок ваших проектів. Унікальність мого підходу до кожного клієнта просто вражає. Спробуй прямо зараз.</p>
 					<button class="BottonContactUs"><a href="#">Зв'язатися</a></button>
 				</div>
-			</div>>
 		</section>
 	</header>
-
-		<section class="AboutMe">
+		<!--About me -->
+		<section id="yakAboutMe" class="AboutMe">
 					<span>про мене</span>
 					<p>
 							Текст про менеТекст про менеТекст про менеТекст про менеТекст про менеТекст про менеТекст про менеТекст про мене
@@ -48,6 +47,7 @@
 					</p>
 					<img src="images/signature.png" alt="signature" class="ImgSignatureCenter">
 		</section>
+		<!--ProffesionalSkills-->
 		<section class="ProffesionalSkills" >
 
 			<div class="ProffesionalSkillsInfo">
@@ -74,19 +74,42 @@
 				</div>
 			</div>
 
-			<div class="ProffesionalSkillsPhoto">
+			<div id="yakProffesionalSkillsPhoto" class="ProffesionalSkillsPhoto">
 				<img src="images/PSImage.jpg" alt="">
 			</div>
-
 		</section>
 
-		<section>
-			
+		<!--Scientific work-->
+		<section id="yakScientificWork" class="ScientificWork">
+			<div class="SWHeader">
+				<p>
+					Наукова робота
+				</p>
+			</div>
+			<div class="SWBlock">
+				<div class="SWText"></div>
+				<div class="SWBlock1"></div>
+			</div>
 		</section>
+		<!--Project-->
+		<section id="yakProject" class="Project">
+			<div class="PText">
+				<p>
+					Мої проекти
+				</p>
+			</div>
+			<div class="PSlider">
 
+			</div>
+		</section>
 
 	<footer>
 
 	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="scripts/headhesive.min.js"></script>
+	<script src="scripts/ScrollScript.js"></script>
+
+
 </body>
 </html>
