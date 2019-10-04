@@ -156,12 +156,13 @@ header{
 	font-size: 1.875em;
 	text-align: center;
 	text-transform: none;
+	margin-top: 10%;
 }
 .ProffesionalSkillsDesign, .ProffesionalSkillsWebDevelopment, .ProffesionalSkillsMarketing{
 
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-bottom: 10%;
+	margin-top: 10%;
 }
 
 .ProffesionalSkillsDesignDiv{
@@ -197,4 +198,8 @@ header{
 }
 .ProffesionalSkillsMarketingRightDiv{
 	width: 10%;
+}
+.ProffesionalSkillsPhoto img{
+	width:  100%;
+
 }
